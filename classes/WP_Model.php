@@ -66,6 +66,8 @@ class WP_Model {
 				self::$query_result =  $query->posts;
 		}
 
+		// use get_metadata and format the return of the post
+
 		return self::$query_result;
 	}
 
